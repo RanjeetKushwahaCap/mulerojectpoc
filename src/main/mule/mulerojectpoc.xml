@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns="http://www.mulesoft.org/schema/mule/core"
+	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
+	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="cddd2a2a-9fc0-4bd7-b8b1-b2448cb9b339">
+		<http:listener-connection host="0.0.0.0" port="8082" />
+	</http:listener-config>
+	<flow name="mulerojectpocFlow" doc:id="10720c09-e32b-405c-8c2f-67f9ce0cbaa6" >
+		<http:listener doc:name="Listener" doc:id="364c9554-7c3d-44db-9ab0-f7c53e98f97d" config-ref="HTTP_Listener_config" path="/TestMule"/>
+		<flow-ref doc:name="Flow Reference" doc:id="c98d8f02-9eaa-4628-9374-22611cf8991a" name="CallSubflow"/>
+	</flow>
+	<flow name="CallSubflow" doc:id="c1777396-6d1b-477b-8a50-cc4f4b34084b" >
+		<set-variable value="TEST123" doc:name="Set Variable" doc:id="0d505a3b-0580-4ec6-8fe1-c219c05c14f5" variableName="TestVar"/>
+		<set-payload value="#[payload]" doc:name="Set Payload" doc:id="c0d27563-e3a2-45fa-8ff6-3d927a8f8370" />
+	</flow>
+</mule>
