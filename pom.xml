@@ -29,7 +29,7 @@
 				</configuration>
 			</plugin>
 		<plugin>
-                <groupId>com.mulesoft.munit</groupId>
+                <groupId>com.mulesoft.munit.tools</groupId>
                 <artifactId>munit-maven-plugin</artifactId>
                 <version>${munit.version}</version>
                 <executions>
