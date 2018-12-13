@@ -20,6 +20,16 @@
     </properties>
 
 	<build>
+		
+		 <testResources>
+    <testResource>
+      <directory>src/test/munit</directory>      
+    </testResource>
+    <testResource>
+      <directory>src/test/resources</directory>  
+    </testResource>
+  </testResources>
+
 		<plugins>
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
