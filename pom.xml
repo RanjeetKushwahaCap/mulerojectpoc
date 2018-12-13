@@ -97,18 +97,18 @@
             <layout>default</layout>
         </repository>
         <repository>
-            <id>mulesoft-releases</id>
+            <id>MuleRepository</id>
             <name>MuleSoft Releases Repository</name>
-            <url>https://repository.mulesoft.org/releases/</url>
+            <url>https://repository.mulesoft.org/nexus-ee/content/repositories/releases-ee/</url>
             <layout>default</layout>
         </repository>
     </repositories>
     <pluginRepositories>
         <pluginRepository>
-            <id>mulesoft-releases</id>
-            <name>mulesoft release repository</name>
+         <id>MuleRepository</id>
+            <name>MuleSoft Releases Repository</name>
+            <url>https://repository.mulesoft.org/nexus-ee/content/repositories/releases-ee/</url>
             <layout>default</layout>
-            <url>https://repository.mulesoft.org/releases/</url>
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
