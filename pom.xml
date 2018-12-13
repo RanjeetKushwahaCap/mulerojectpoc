@@ -100,7 +100,6 @@
             <classifier>mule-plugin</classifier>
             <scope>test</scope>
         </dependency>	
-        </dependency>
 
 	
 	
