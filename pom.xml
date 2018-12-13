@@ -142,7 +142,7 @@
     <plugins>
       <plugin>
         <groupId>org.mule.tools.maven</groupId>
-        <artifactId>mule-maven-plugin-ee</artifactId>
+        <artifactId>mule-maven-plugin</artifactId>
         <configuration>
              <cloudHubDeployment>
 <muleVersion>4.1.1</muleVersion>
