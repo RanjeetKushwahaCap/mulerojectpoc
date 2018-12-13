@@ -92,7 +92,12 @@
             <version>4.1.1</version>
             <classifier>sources</classifier>
         </dependency>
-		
+		 <dependency>
+          <groupId>com.mulesoft.mule.runtime</groupId>
+<artifactId>mule</artifactId>
+            <version>4.1.1</version>
+            <classifier>sources</classifier>
+        </dependency>
 	<dependency>
     <groupId>com.mulesoft.munit.plugins</groupId>
     <artifactId>munit-coverage-plugin</artifactId>
