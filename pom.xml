@@ -79,19 +79,6 @@
             <classifier>mule-plugin</classifier>
         </dependency>
 		
-		   <dependency>
-          <groupId>com.mulesoft.mule.runtime.modules</groupId>
-<artifactId>mule-module-plugin-ee</artifactId>
-            <version>4.1.1</version>
-            <classifier>sources</classifier>
-        </dependency>
-
-		 <dependency>
-          <groupId>com.mulesoft.mule.runtime</groupId>
-<artifactId>mule-core-ee</artifactId>
-            <version>4.1.1</version>
-            <classifier>sources</classifier>
-        </dependency>
 		 
 	<dependency>
     <groupId>com.mulesoft.munit.plugins</groupId>
@@ -112,12 +99,7 @@
             <version>2.1.4</version>
             <classifier>mule-plugin</classifier>
             <scope>test</scope>
-        </dependency>	<dependency>
-            <groupId>com.mulesoft.munit</groupId>
-            <artifactId>munit-tools</artifactId>
-            <version>2.1.4</version>
-            <classifier>mule-plugin</classifier>
-            <scope>test</scope>
+        </dependency>	
         </dependency>
 
 	
