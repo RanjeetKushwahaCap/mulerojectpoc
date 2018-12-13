@@ -93,13 +93,7 @@
             <classifier>mule-plugin</classifier>
             <scope>test</scope>
         </dependency>
-	<dependency>
-        <groupId>com.mulesoft.munit</groupId>
-        <artifactId>mule-munit-support</artifactId>
-        <version>${mule.munit.support.version}</version>
-        <scope>test</scope>
-    </dependency>	
-		
+	
     </dependencies>
 
 	<repositories>
