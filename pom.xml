@@ -90,7 +90,7 @@
           <groupId>com.mulesoft.mule.runtime</groupId>
 <artifactId>mule-core-ee</artifactId>
             <version>4.1.1</version>
-            <classifier>mule-plugin</classifier>
+            <classifier>sources</classifier>
         </dependency>
 		 
 	<dependency>
