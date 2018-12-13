@@ -90,13 +90,13 @@
           <groupId>com.mulesoft.mule.runtime</groupId>
 <artifactId>mule-core-ee</artifactId>
             <version>4.1.1</version>
-            <classifier>sources</classifier>
+            <classifier></classifier>
         </dependency>
 		 <dependency>
           <groupId>com.mulesoft.mule.runtime</groupId>
 <artifactId>mule</artifactId>
             <version>4.1.1</version>
-            <classifier>sources</classifier>
+            <classifier></classifier>
         </dependency>
 	<dependency>
     <groupId>com.mulesoft.munit.plugins</groupId>
