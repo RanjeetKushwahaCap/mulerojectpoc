@@ -97,6 +97,14 @@
             <classifier>mule-plugin</classifier>
             <scope>test</scope>
         </dependency>
+		
+	<!-- https://mvnrepository.com/artifact/com.mulesoft.munit.plugins/munit-coverage-plugin -->
+<dependency>
+    <groupId>com.mulesoft.munit.plugins</groupId>
+    <artifactId>munit-coverage-plugin</artifactId>
+    <version>2.1.4</version>
+</dependency>
+	
 	
     </dependencies>
 
