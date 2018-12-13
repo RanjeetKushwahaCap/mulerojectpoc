@@ -83,14 +83,9 @@
           <groupId>com.mulesoft.mule.runtime.modules</groupId>
 <artifactId>mule-module-plugin-ee</artifactId>
             <version>4.1.1</version>
-            <classifier>mule-plugin</classifier>
+            <classifier>sources</classifier>
         </dependency>
-		 <dependency>
-          <groupId>com.mulesoft.mule.runtime.modules</groupId>
-<artifactId>mule-module-plugin-ee</artifactId>
-            <version>4.1.1</version>
-            <classifier>mule-plugin</classifier>
-        </dependency>
+
 	<dependency>
     <groupId>com.mulesoft.munit.plugins</groupId>
     <artifactId>munit-coverage-plugin</artifactId>
