@@ -15,7 +15,7 @@
 
 		<app.runtime>4.1.1</app.runtime>
 		<mule.maven.plugin.version>3.1.6</mule.maven.plugin.version>
-	<munit.version>2.1.4-EE</munit.version>
+	<munit.version>2.1.4</munit.version>
     </properties>
 
 	<build>
@@ -113,19 +113,7 @@
             <url>https://repository.mulesoft.org/releases/</url>
             <snapshots>
                 <enabled>false</enabled>
-            </snapshots>
-        </pluginRepository>
-	       <pluginRepository>
-            <id>MuleRepository</id>
-            <name>mulesoft release repository</name>
-            <layout>default</layout>
-            <url>https://repository.mulesoft.org/nexus-ee/content/repositories/releases-ee/</url>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </pluginRepository>
-	     
-	    
+            </snapshots>    
     </pluginRepositories>
 	
 	
