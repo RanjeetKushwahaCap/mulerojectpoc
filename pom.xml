@@ -12,9 +12,8 @@
     <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-
-		<app.runtime>4.1.1</app.runtime>
-	    <mule.munit.support.version>4.1.1</mule.munit.support.version>
+		<app.runtime>4.1.4</app.runtime>
+	    <mule.munit.support.version>4.1.4</mule.munit.support.version>
 		<mule.maven.plugin.version>3.1.6</mule.maven.plugin.version>
 	<munit.version>2.1.4</munit.version>
     </properties>
@@ -145,7 +144,7 @@
         <artifactId>mule-maven-plugin</artifactId>
         <configuration>
              <cloudHubDeployment>
-<muleVersion>4.1.1</muleVersion>
+<muleVersion>4.1.4</muleVersion>
           <username>RanjeetKushwahaCap</username> 
           <password>Raj@2018</password> 
           <applicationName>testApplicationV1</applicationName>
