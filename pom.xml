@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 <groupId>au.mycompany</groupId>
 <artifactId>mulerojectpoc</artifactId>
- <version>2.0.0</version>
+ <version>2.0.0-${revision}</version>
  <packaging>mule-application</packaging>
 	<name>mulerojectpoc</name>
     <properties>
