@@ -170,11 +170,10 @@
 </profile>
 </profiles>
 <distributionManagement>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>LAU03003907-snapshots</name>
-        <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
-    </snapshotRepository>
+    <repository>
+        <id>central</id>
+        <name>LAU03003907-releases</name>
+        <url>http://localhost:8081/artifactory/libs-release</url>
+    </repository>
 </distributionManagement>
-
 </project>
