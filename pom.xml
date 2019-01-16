@@ -16,7 +16,12 @@
     </properties>
 
 	<build>
-		
+		 <execution>
+                <goals>
+                    <goal>build-info</goal>
+                </goals>
+                <phase>package</phase>
+            </execution>
 		 <testResources>
     <testResource>
       <directory>src/test/munit</directory>      
