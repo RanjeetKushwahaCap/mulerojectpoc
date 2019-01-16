@@ -16,12 +16,7 @@
     </properties>
 
 	<build>
-		 <execution>
-                <goals>
-                    <goal>build-info</goal>
-                </goals>
-                <phase>package</phase>
-            </execution>
+		
 		 <testResources>
     <testResource>
       <directory>src/test/munit</directory>      
@@ -49,6 +44,8 @@
                         <id>test</id>
                         <phase>test</phase>
                         <goals>
+		          <goal>build-info</goal>
+
                             <goal>test</goal>
                             <goal>coverage-report</goal>
                         </goals>
