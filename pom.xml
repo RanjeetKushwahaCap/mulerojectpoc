@@ -44,7 +44,6 @@
                         <id>test</id>
                         <phase>test</phase>
                         <goals>
-		          <goal>build-info</goal>
 
                             <goal>test</goal>
                             <goal>coverage-report</goal>
